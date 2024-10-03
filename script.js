@@ -12,6 +12,25 @@
 
 
 
+
+// esercizio assegnato in classe:
+
+// let numeri = [];
+// let somma = 0;
+// for( let i = 0 ; i < 10 ; i++){
+//     let numero = prompt("inserisci un numero");
+//     numero = parseFloat(numero);
+//     numeri.push(numero);
+//     console.log(numeri);
+//     somma = somma + numero
+//     console.log(somma);
+    
+// }
+// alert("la somma finale dei numeri è " + somma)
+
+
+
+
 // let emailUtente;
 // let emailOk = ["gino@gmail.com" , "mario@gmail.com" , "paolovillaggio@gmail.com"];
 // let nomeUtente;
