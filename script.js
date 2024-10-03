@@ -9,3 +9,25 @@
 // si ma noi cosa vogliamo fare?
 // torniamo a scrivere in italiano
 // proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+
+
+// let emailUtente;
+// let emailOk = ["gino@gmail.com" , "mario@gmail.com" , "paolovillaggio@gmail.com"];
+// let nomeUtente;
+// let utenteAmmesso = false
+
+// emailUtente = prompt("Inserisci la tua email");
+
+// for(let i = 0 ; i < emailOk.length ; i++){
+//     let half = emailOk[i].split("@");
+//     nomeUtente = half[0];
+//     if(emailUtente === emailOk[i]){
+//         alert("benvenuto " + nomeUtente);
+//         utenteAmmesso = true;
+//         break;
+//     }
+// }
+// if(utenteAmmesso === false){
+//     alert("Utente non Ammesso, riprovare");
+// }
