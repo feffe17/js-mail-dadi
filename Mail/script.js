@@ -36,50 +36,22 @@
 
 //esercizio email
 
-// let emailUtente;
-// let emailOk = ["gino@gmail.com" , "mario@gmail.com" , "paolovillaggio@gmail.com"];
-// let nomeUtente;
-// let utenteAmmesso = false
+let emailUtente;
+let emailOk = ["gino@gmail.com" , "mario@gmail.com" , "paolovillaggio@gmail.com"];
+let nomeUtente;
+let utenteAmmesso = false
 
-// emailUtente = prompt("Inserisci la tua email");
+emailUtente = prompt("Inserisci la tua email");
 
-// for(let i = 0 ; i < emailOk.length ; i++){
-//     let half = emailOk[i].split("@");
-//     nomeUtente = half[0];
-//     if(emailUtente === emailOk[i]){
-//         alert("benvenuto " + nomeUtente);
-//         utenteAmmesso = true;
-//         break;
-//     }
-// }
-// if(utenteAmmesso === false){
-//     alert("Utente non Ammesso, riprovare");
-// }
-
-
-
-
-
-
-//esercizio dadi
-
-let dadoUtente = parseInt((Math.random() * 6) + 1)
-let dadoComputer = parseInt((Math.random() * 6) + 1)
-let play
-console.log(dadoUtente , dadoComputer);
-
-play = prompt(`Digita "play" per giocare`)
-
-if(play === "play"){
-    alert("il tuo dado ha fatto " + dadoUtente);
-    alert("il dado del computer ha fatto " + dadoComputer);
-    if(dadoUtente > dadoComputer){
-        alert("Hai vinto!");
+for(let i = 0 ; i < emailOk.length ; i++){
+    let half = emailOk[i].split("@");
+    nomeUtente = half[0];
+    if(emailUtente === emailOk[i]){
+        alert("benvenuto " + nomeUtente);
+        utenteAmmesso = true;
+        break;
     }
-    else if(dadoUtente == dadoComputer){
-        alert("Pareggio! Riprova e sarai più fortunato")
-    }
-    else{
-        alert("Mi dispiace, hai perso! Riprova e sarai più fortunato")
-    }
+}
+if(utenteAmmesso === false){
+    alert("Utente non Ammesso, riprovare");
 }
